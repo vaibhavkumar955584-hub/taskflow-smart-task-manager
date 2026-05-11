@@ -1,65 +1,26 @@
 {
   "project_info": {
-    "project_number": "727830725517",
-    "project_id": "todolist-10ef1",
-    "storage_bucket": "todolist-10ef1.appspot.com"
+    "project_number": "614436705322",
+    "project_id": "flutter-todo-lit-app",
+    "storage_bucket": "flutter-todo-lit-app.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:727830725517:android:e1aba9d6fc5baaad9b33c4",
+        "mobilesdk_app_id": "1:614436705322:android:cacce1fdcb607a217cdf53",
         "android_client_info": {
-          "package_name": "com.example.flutter_to_do_list"
+          "package_name": "com.vaibhav.taskflow"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "727830725517-m312sdhm37vu2fojhk13go7cl0r215ok.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCRm_zOokLV-Nb_5zpJnjAuJlD93gA5e3o"
+          "current_key": "AIzaSyCkgGlYvQxgoU1D0XisZVTrj__hn2m9SpM"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "727830725517-m312sdhm37vu2fojhk13go7cl0r215ok.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:727830725517:android:cb99236c157d93349b33c4",
-        "android_client_info": {
-          "package_name": "com.example.todolistwithfirestor"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "727830725517-m312sdhm37vu2fojhk13go7cl0r215ok.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCRm_zOokLV-Nb_5zpJnjAuJlD93gA5e3o"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "727830725517-m312sdhm37vu2fojhk13go7cl0r215ok.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,22 +1,97 @@
-## Flutter To-Do App with Firebase
+# TaskFlow - Smart Task Manager
 
-![Untitled design (1)](https://github.com/alireza4585/flutter-to-do-app/assets/102475069/ac08ec28-560f-4bc6-a728-026c9556e1f4)
+TaskFlow is a personalized Flutter internship assignment project by **Vaibhav Kumar**, an aspiring software developer working with **Flutter, Firebase, and Dart**. The app focuses on clean task planning, Firebase-backed user data, a polished responsive interface, and practical productivity features.
 
-## Tutorial : https://youtu.be/2DPkZEzEn70
+## Features
 
-This repository contains a simple Flutter to-do app that utilizes Firebase for backend services. The app allows users to create, manage, and organize their to-do tasks seamlessly. Firebase is integrated for real-time data synchronization, authentication, and cloud storage.
+- Firebase Authentication: signup, login, logout, forgot password
+- Cloud Firestore task CRUD scoped per user
+- Task fields: title, description, date, priority, category, status, createdAt
+- Categories: Personal, Work, Study, Health
+- Filters: all, pending, completed, high priority
+- Search by task title, description, and category
+- Motivational quote card from `https://api.quotable.io/random`
+- Loading states, validation, snackbar feedback, and retry flows
+- Swipe to delete, pull to refresh, empty state UI
+- Dashboard statistics for total, pending, completed, and high priority tasks
+- Light and dark themes with custom TaskFlow colors
+- Local notification setup hook for task reminders
+- Android and iOS ready Flutter structure
 
+## Folder Structure
 
-### Features
+```text
+lib/
+├── constants/
+├── models/
+├── providers/
+├── screens/
+├── services/
+├── themes/
+├── utils/
+├── widgets/
+└── main.dart
+```
 
-. User Authentication: The app supports user registration and authentication using Firebase Authentication.
+## Firebase Setup
 
-. Real-time Data Sync: To-do tasks are synchronized in real-time across multiple devices.
+1. Create a Firebase project from the Firebase Console.
+2. Enable Email/Password Authentication.
+3. Create a Cloud Firestore database.
+4. Add Android and iOS apps using your preferred package identifiers.
+5. Download and place:
+   - `android/app/google-services.json`
+   - `ios/Runner/GoogleService-Info.plist`
+6. Regenerate `lib/firebase_options.dart` with FlutterFire CLI if you change Firebase projects:
 
-. Add and Edit Tasks: Users can add new tasks and edit existing ones with ease.
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
 
-. Mark as Complete: Tasks can be marked as complete, and the app provides a visual indication for completed tasks.
+## Installation
 
-. Delete Tasks: Users can delete tasks they no longer need.
+```bash
+flutter pub get
+flutter run
+```
 
-. Task Categories: Tasks can be organized into different categories or projects.
+## APK
+
+Build a release APK with:
+
+```bash
+flutter build apk --release
+```
+
+Place the final APK link or file path here after building:
+
+```text
+APK: pending
+```
+
+## Screenshots
+
+Add screenshots after running the app:
+
+```text
+Splash Screen: pending
+Login Screen: pending
+Dashboard: pending
+Task Editor: pending
+Dark Theme: pending
+```
+
+## Demo Video
+
+Add the demo video link here:
+
+```text
+Demo Video: pending
+```
+
+## Developer
+
+**Vaibhav Kumar**  
+Role: Aspiring Software Developer  
+Tech Stack: Flutter, Firebase, Dart

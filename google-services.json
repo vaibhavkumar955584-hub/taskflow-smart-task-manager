@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614436705322",
+    "project_id": "flutter-todo-lit-app",
+    "storage_bucket": "flutter-todo-lit-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614436705322:android:cacce1fdcb607a217cdf53",
+        "android_client_info": {
+          "package_name": "com.vaibhav.taskflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkgGlYvQxgoU1D0XisZVTrj__hn2m9SpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
