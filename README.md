@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow - Smart Task Manager
 
 TaskFlow is a personalized Flutter internship assignment project by **Vaibhav Kumar**, an aspiring software developer working with **Flutter, Firebase, and Dart**. The app focuses on clean task planning, Firebase-backed user data, a polished responsive interface, and practical productivity features.
@@ -95,3 +96,7 @@ Demo Video: pending
 **Vaibhav Kumar**  
 Role: Aspiring Software Developer  
 Tech Stack: Flutter, Firebase, Dart
+=======
+# taskflow-smart-task-manager
+TaskFlow is a modern Flutter-based task management app with Firebase Authentication, Cloud Firestore CRUD, REST API integration, task filtering, notifications, and responsive UI. It helps users organize daily tasks efficiently with clean architecture and smooth user experience.
+>>>>>>> 1d63fd5365d840852bca144cbd6e11a7ac6ae72f
